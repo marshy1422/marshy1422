@@ -1,0 +1,18 @@
+# Modern AI Dependencies for Pwnagotchi
+# PyTorch-based reinforcement learning with stability improvements
+
+# Core deep learning framework
+torch>=2.0.0
+
+# Reinforcement learning
+stable-baselines3>=2.2.0
+gymnasium>=0.29.0
+
+# NumPy (required by stable-baselines3)
+numpy>=1.20.0
+
+# Note: Install with:
+# pip install -r requirements-ai.txt
+#
+# For Raspberry Pi, you may want to use pre-built wheels:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu

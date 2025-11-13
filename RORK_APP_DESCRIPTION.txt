@@ -1,0 +1,252 @@
+VIKING WELLNESS APP - Complete Description for Rork.com
+================================================================
+
+Copy and paste this into Rork's app builder:
+
+================================================================
+
+Create a mental health and wellness mobile app called "Viking Wellness" that combines therapeutic activities with a Tamagotchi-style virtual pet game.
+
+APP STRUCTURE:
+
+HEADER:
+- App name: "Viking Wellness"
+- Shield icon (🛡️) next to title
+- Settings button (gear icon) in top-right corner
+- Dark background color: #1A1F2E
+
+MAIN SCREEN - PET DISPLAY:
+- Large circular container (120px diameter) with gradient background
+- Gradient colors: #ED8936 (orange) to #D69E2E (gold)
+- Glowing shadow effect around the circle (orange glow)
+- Pet emoji displayed in center: 🥚 (starts as egg)
+- Outer ring border (140px diameter, semi-transparent orange)
+- Pet name below: "Bjorn the Viking" (white text, bold)
+- Stage indicator: "Viking Egg • Level 1" (gray text)
+- Dark gradient background: #2D3748 to #1A1F2E (top to bottom)
+
+STATS SECTION (three columns):
+Column 1 - Health:
+- Red heart icon (❤️)
+- Value: 85
+- Label: "Health" (gray text)
+
+Column 2 - Happiness:
+- Yellow smile icon (😊)
+- Value: 92
+- Label: "Happy" (gray text)
+
+Column 3 - Experience:
+- Blue star icon (⭐)
+- Value: "150/200"
+- Label: "XP" (gray text)
+
+XP Progress Bar:
+- Full width horizontal bar
+- Background: dark gray (#374151)
+- Fill: blue-purple gradient (#3B82F6 to #8B5CF6)
+- Current progress: 75% filled
+- Height: 4px
+
+MENTAL HEALTH ACTIVITIES (2x2 Grid):
+
+Card 1 - AI Chat:
+- Gradient background: #059669 to #047857 (green)
+- Chat bubble icon (💬)
+- Title: "AI Chat" (white, bold)
+- Reward badge: "+10 XP" (light green text)
+- Rounded corners (16px)
+- Soft shadow
+- Action: Navigate to AI chat screen
+
+Card 2 - Mood Tracking:
+- Gradient background: #7C3AED to #6D28D9 (purple)
+- Mood icon (😊)
+- Title: "Mood Track" (white, bold)
+- Reward badge: "+15 XP" (light purple text)
+- Rounded corners (16px)
+- Soft shadow
+- Action: Navigate to mood tracker
+
+Card 3 - Journal:
+- Gradient background: #DC2626 to #B91C1C (red)
+- Book icon (📔)
+- Title: "Journal" (white, bold)
+- Reward badge: "+20 XP" (light red text)
+- Rounded corners (16px)
+- Soft shadow
+- Action: Navigate to journal screen
+
+Card 4 - CBT Exercises:
+- Gradient background: #EA580C to #DC2626 (orange-red)
+- Psychology/brain icon (🧠)
+- Title: "CBT Exercises" (white, bold)
+- Reward badge: "+25 XP" (light orange text)
+- Rounded corners (16px)
+- Soft shadow
+- Action: Navigate to exercises screen
+
+CARE FOR BJORN SECTION:
+- Container with dark gray background (#374151)
+- Rounded corners (16px)
+- Header: "Care for Bjorn" with pet icon (🐾)
+- Two buttons side-by-side:
+
+Button 1 - Feed:
+- Text: "🍖 Feed"
+- Green background (#059669)
+- White text
+- Rounded corners (12px)
+- Action: Increase health by 10, happiness by 5
+
+Button 2 - Play:
+- Text: "🎮 Play"
+- Purple background (#7C3AED)
+- White text
+- Rounded corners (12px)
+- Action: Increase happiness by 10
+
+EVOLUTION PROGRESS SECTION:
+- Container with dark gray background (#374151)
+- Rounded corners (16px)
+- Title: "Evolution Progress" (white, bold)
+- Subtitle: "Next: Baby Viking at Level 2" (gray text)
+- Progress bar:
+  * Background: darker gray (#4B5563)
+  * Fill: orange-gold gradient (#ED8936 to #D69E2E)
+  * Current progress: 75% filled
+  * Rounded corners (4px)
+
+GAME MECHANICS:
+
+Pet Evolution System:
+Stage 1: Viking Egg 🥚 (Level 1)
+Stage 2: Baby Viking 👶 (Level 2-3)
+Stage 3: Young Warrior ⚔️ (Level 4-6)
+Stage 4: Skilled Fighter 🛡️ (Level 7-10)
+Stage 5: Battle Viking ⚡ (Level 11-15)
+Stage 6: Legendary Viking 👑 (Level 16+)
+
+XP System:
+- AI Chat: +10 XP per message
+- Mood Tracking: +15 XP per entry
+- Journal: +20 XP per entry
+- CBT Exercises: +25 XP per completed exercise
+- Level up requires 200 XP
+- XP resets to 0 after level up
+
+Pet Stats:
+- Health: 0-100 (decreases 5 points per day)
+- Happiness: 0-100 (decreases 3 points per day)
+- Feed action: +10 health, +5 happiness
+- Play action: +10 happiness
+- Low stats affect pet appearance (looks sad/tired)
+
+Navigation:
+- All activity cards navigate to respective screens
+- Back button on all sub-screens
+- Bottom navigation bar (optional):
+  * Home (pet screen)
+  * Activities
+  * Stats/History
+  * Profile
+
+DESIGN REQUIREMENTS:
+
+Colors:
+- Primary background: #1A1F2E (dark navy)
+- Secondary background: #2D3748 (dark gray)
+- Card backgrounds: #374151 (lighter gray)
+- Accent color: #ED8936 (orange)
+- Text primary: #FFFFFF (white)
+- Text secondary: #CBD5E0 (light gray)
+
+Typography:
+- Headings: Bold, 24-28px
+- Subheadings: Bold, 18-20px
+- Body text: Regular, 14-16px
+- Small text: 12px
+
+Spacing:
+- Section padding: 16-24px
+- Card spacing: 12px
+- Element spacing: 8-16px
+
+Animations:
+- Pet bounces gently when tapped
+- Stats increment/decrement with smooth animation
+- Progress bars fill smoothly
+- Cards have subtle hover/press effect
+- Evolution animation when leveling up
+
+Mobile Responsiveness:
+- Works on screens 320px-428px width
+- Grid adapts to small screens
+- Text doesn't overflow
+- Buttons remain touchable (min 40px height)
+
+ADDITIONAL SCREENS (to be built):
+
+AI Chat Screen:
+- Chat interface with message bubbles
+- User messages: right-aligned, blue
+- AI responses: left-aligned, gray
+- Input field at bottom with send button
+- Supportive, empathetic AI responses
+
+Mood Tracking Screen:
+- Emoji selector for mood (😊😢😰😌😠😐)
+- Intensity slider (1-10)
+- Note field (optional)
+- Submit button
+- History of past entries
+- Weekly mood chart (line graph)
+
+Journal Screen:
+- Text editor for writing entries
+- Date/time stamp
+- Word count
+- AI insights button (analyzes entry)
+- List of past entries
+- Search functionality
+
+CBT Exercises Screen:
+- Four exercise types:
+  1. Thought Record
+  2. Behavioral Activation
+  3. Cognitive Restructuring
+  4. Gratitude Practice
+- Guided prompts for each
+- Save progress
+- Track completed exercises
+
+DATA PERSISTENCE:
+- Save pet stats locally
+- Save user's activity history
+- Save journal entries securely
+- Track XP and level progress
+- Store mood log entries
+
+NOTIFICATIONS:
+- Daily reminder to check on Bjorn
+- Low health/happiness alerts
+- Level up celebrations
+- Streak tracking for consistent use
+
+Make the app feel warm, supportive, and encouraging. Use smooth animations and friendly language throughout. The goal is to make mental health activities fun and rewarding through the pet care gamification.
+
+================================================================
+
+ADDITIONAL NOTES FOR RORK:
+
+- Use modern, clean UI design
+- Ensure all buttons are easily tappable
+- Add loading states for AI responses
+- Include error handling for all user actions
+- Make navigation intuitive and clear
+- Test on both iOS and Android style guidelines
+- Ensure text is readable on all backgrounds
+- Add haptic feedback for button presses
+- Include accessibility features (voice over, larger text options)
+
+================================================================
